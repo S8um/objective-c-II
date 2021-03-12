@@ -17,7 +17,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.title = @"First Controller";
+    self.title = self.viewTitle;
     
     self.view.backgroundColor = [UIColor blueColor];
     
