@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		846DCE1025FABF4400A01D70 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846DCE0F25FABF4400A01D70 /* SecondViewController.m */; };
 		84A5877A25F68500004BA62D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5877925F68500004BA62D /* AppDelegate.m */; };
 		84A5878025F68500004BA62D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5877F25F68500004BA62D /* MainViewController.m */; };
 		84A5878525F68502004BA62D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A5878425F68502004BA62D /* Assets.xcassets */; };
 		84A5878825F68502004BA62D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A5878625F68502004BA62D /* LaunchScreen.storyboard */; };
 		84A5878B25F68502004BA62D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5878A25F68502004BA62D /* main.m */; };
 		84A5879625F68715004BA62D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5879525F68715004BA62D /* FirstViewController.m */; };
+		84CB9CE125FB19AC0098174F /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB9CE025FB19AC0098174F /* CustomTableCell.m */; };
+		84CB9CE625FBB1050098174F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB9CE525FBB1050098174F /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		846DCE0E25FABF4400A01D70 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		846DCE0F25FABF4400A01D70 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		84A5877525F68500004BA62D /* AviaKassa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AviaKassa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A5877825F68500004BA62D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84A5877925F68500004BA62D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,6 +32,10 @@
 		84A5878A25F68502004BA62D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84A5879425F68715004BA62D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		84A5879525F68715004BA62D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84CB9CDF25FB19AC0098174F /* CustomTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		84CB9CE025FB19AC0098174F /* CustomTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		84CB9CE425FBB1050098174F /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		84CB9CE525FBB1050098174F /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,18 +68,32 @@
 		84A5877725F68500004BA62D /* AviaKassa */ = {
 			isa = PBXGroup;
 			children = (
+				84CB9CDE25FB19760098174F /* Cell */,
 				84A5877825F68500004BA62D /* AppDelegate.h */,
 				84A5877925F68500004BA62D /* AppDelegate.m */,
 				84A5877E25F68500004BA62D /* MainViewController.h */,
 				84A5877F25F68500004BA62D /* MainViewController.m */,
 				84A5879425F68715004BA62D /* FirstViewController.h */,
 				84A5879525F68715004BA62D /* FirstViewController.m */,
+				846DCE0E25FABF4400A01D70 /* SecondViewController.h */,
+				846DCE0F25FABF4400A01D70 /* SecondViewController.m */,
+				84CB9CE425FBB1050098174F /* TableViewController.h */,
+				84CB9CE525FBB1050098174F /* TableViewController.m */,
 				84A5878425F68502004BA62D /* Assets.xcassets */,
 				84A5878625F68502004BA62D /* LaunchScreen.storyboard */,
 				84A5878925F68502004BA62D /* Info.plist */,
 				84A5878A25F68502004BA62D /* main.m */,
 			);
 			path = AviaKassa;
+			sourceTree = "<group>";
+		};
+		84CB9CDE25FB19760098174F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84CB9CDF25FB19AC0098174F /* CustomTableCell.h */,
+				84CB9CE025FB19AC0098174F /* CustomTableCell.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +164,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846DCE1025FABF4400A01D70 /* SecondViewController.m in Sources */,
 				84A5878025F68500004BA62D /* MainViewController.m in Sources */,
 				84A5877A25F68500004BA62D /* AppDelegate.m in Sources */,
 				84A5878B25F68502004BA62D /* main.m in Sources */,
 				84A5879625F68715004BA62D /* FirstViewController.m in Sources */,
+				84CB9CE625FBB1050098174F /* TableViewController.m in Sources */,
+				84CB9CE125FB19AC0098174F /* CustomTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

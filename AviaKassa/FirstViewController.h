@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FirstViewController : UIViewController
 
+@property (nonatomic, copy) NSString * viewTitle;
+
 @end
 
 NS_ASSUME_NONNULL_END
