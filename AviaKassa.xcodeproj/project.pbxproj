@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842FAEF32608FB5F006FD135 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842FAEF22608FB5F006FD135 /* TabBarController.m */; };
 		846DCE1025FABF4400A01D70 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846DCE0F25FABF4400A01D70 /* SecondViewController.m */; };
 		84A5877A25F68500004BA62D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5877925F68500004BA62D /* AppDelegate.m */; };
 		84A5878025F68500004BA62D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5877F25F68500004BA62D /* MainViewController.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842FAEF12608FB5F006FD135 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		842FAEF22608FB5F006FD135 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		846DCE0E25FABF4400A01D70 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		846DCE0F25FABF4400A01D70 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		84A5877525F68500004BA62D /* AviaKassa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AviaKassa.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +71,8 @@
 		84A5877725F68500004BA62D /* AviaKassa */ = {
 			isa = PBXGroup;
 			children = (
+				842FAEF12608FB5F006FD135 /* TabBarController.h */,
+				842FAEF22608FB5F006FD135 /* TabBarController.m */,
 				84CB9CDE25FB19760098174F /* Cell */,
 				84A5877825F68500004BA62D /* AppDelegate.h */,
 				84A5877925F68500004BA62D /* AppDelegate.m */,
@@ -169,6 +174,7 @@
 				84A5877A25F68500004BA62D /* AppDelegate.m in Sources */,
 				84A5878B25F68502004BA62D /* main.m in Sources */,
 				84A5879625F68715004BA62D /* FirstViewController.m in Sources */,
+				842FAEF32608FB5F006FD135 /* TabBarController.m in Sources */,
 				84CB9CE625FBB1050098174F /* TableViewController.m in Sources */,
 				84CB9CE125FB19AC0098174F /* CustomTableCell.m in Sources */,
 			);
