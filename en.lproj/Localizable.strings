@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  AviaKassa
+
+  Created by admin on 31.03.2021.
+ 
+*/
+
+"DaysOfWeek" = "Days of week";
+"Months" = "Months";
+
+"Sunday" = "Sunday";
+"Monday" = "Monday";
+"Tuesday" = "Tuesday";
+"Wednesday" = "Wednesday";
+"Thursday" = "Thursday";
+"Friday" = "Friday";
+"Saturday" = "Saturday";
+
+"Jan" = "January";
+"Feb" = "February";
+"Mar" = "March";
+"Apr" = "April";
+"May" = "May";
+"Jun" = "June";
+"Jul" = "July";
+"Aug" = "August";
+"Sep" = "September";
+"Oct" = "October";
+"Nov" = "November";
+"Dec" = "December";
