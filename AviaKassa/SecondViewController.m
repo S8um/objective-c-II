@@ -23,13 +23,13 @@
     self.title = self.viewTitle;
     self.view.backgroundColor = [UIColor whiteColor];
     [self configureControls];
-    self.dayOfWeek = [@[@"Понедельник",
-                        @"Вторник",
-                        @"Среда",
-                        @"Четверг",
-                        @"Пятница",
-                        @"Суббота",
-                        @"Воскресенье"] mutableCopy];
+    self.dayOfWeek = [@[NSLocalizedString(@"Monday", @""),
+                        NSLocalizedString(@"Tuesday", @""),
+                        NSLocalizedString(@"Wednesday", @""),
+                        NSLocalizedString(@"Thursday", @""),
+                        NSLocalizedString(@"Friday", @""),
+                        NSLocalizedString(@"Saturday", @""),
+                        NSLocalizedString(@"Sunday", @"")] mutableCopy];
 }
 
 #pragma mark - Configure UI

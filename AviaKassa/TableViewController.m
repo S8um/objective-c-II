@@ -27,18 +27,18 @@
     
     self.title = self.viewTitle;
     self.view.backgroundColor = [UIColor whiteColor];
-    self.monthOfYear = [@[@"Январь",
-                          @"Февраль",
-                          @"Март",
-                          @"Апрель",
-                          @"Май",
-                          @"Июнь",
-                          @"Июль",
-                          @"Август",
-                          @"Сентябрь",
-                          @"Октябрь",
-                          @"Ноябрь",
-                          @"Декабрь"] mutableCopy];
+    self.monthOfYear = [@[NSLocalizedString(@"Jan", @""),
+                          NSLocalizedString(@"Feb", @""),
+                          NSLocalizedString(@"Mar", @""),
+                          NSLocalizedString(@"Apr", @""),
+                          NSLocalizedString(@"May", @""),
+                          NSLocalizedString(@"Jun", @""),
+                          NSLocalizedString(@"Jul", @""),
+                          NSLocalizedString(@"Aug", @""),
+                          NSLocalizedString(@"Sep", @""),
+                          NSLocalizedString(@"Oct", @""),
+                          NSLocalizedString(@"Nov", @""),
+                          NSLocalizedString(@"Dec", @"")] mutableCopy];
 }
 
 #pragma mark - Table view data source
